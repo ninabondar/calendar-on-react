@@ -5,7 +5,7 @@ import {MONTHS_NAMES} from './../../constant';
 export default ({date, prevMonthHandler, nextMonthHandler}) => (
     <section className="year-header">
         <button className="year-header__previous"
-                onClick={() => {prevMonthHandler();}}>
+                onClick={() => {prevMonthHandler()}}>
         </button>
         <time
             className="year-header__year">
